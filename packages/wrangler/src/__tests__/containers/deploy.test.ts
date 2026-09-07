@@ -4,11 +4,11 @@ import * as fs from "node:fs";
 import path from "node:path";
 import { PassThrough, Writable } from "node:stream";
 import {
+	ApplicationAffinityHardwareGeneration,
 	getCloudflareContainerRegistry,
 	InstanceType,
 	SchedulingPolicy,
 } from "@cloudflare/containers-shared";
-import { ApplicationAffinityHardwareGeneration } from "@cloudflare/containers-shared/src/client/models/ApplicationAffinityHardwareGeneration";
 import {
 	runInTempDir,
 	writeWranglerConfig,

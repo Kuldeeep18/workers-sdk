@@ -19,7 +19,7 @@ import type {
 	InstanceTypeOrLimits,
 	SharedContainerConfig,
 } from "@cloudflare/containers-shared";
-import type { ApplicationAffinityHardwareGeneration } from "@cloudflare/containers-shared/src/client/models/ApplicationAffinityHardwareGeneration";
+import type { ApplicationAffinityHardwareGeneration } from "@cloudflare/containers-shared";
 import type { Config, ContainerApp } from "@cloudflare/workers-utils";
 
 /**
